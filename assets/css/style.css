@@ -1,7 +1,12 @@
+body {
+    background: rgb(0, 0, 0);
+}
+
 #jumbostyle {
     padding: 20px;
     margin: 0;
     width: 100%;
+    color: #cccc; 
 }
 
 #buttonSection {
