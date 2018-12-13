@@ -1,0 +1,84 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Crystal Collector</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+    crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style.css"/>
+    <script src="./assets/javascript/game.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="jumbotron-fluid" id="jumbostyle">
+                    <h1 class="display-4">Crystal Collector</h1>
+                    <p class="lead">Game Instructions</p>
+                    <hr class="my-4">
+                    <p><img src="./assets/images/diamond-icon.png" height="20px"> You win the game by matching your total score to random number, you lose the game if your total score goes above
+                        the random number.</p>
+                    <p><img src="./assets/images/diamond-icon.png" height="20px"> Each gem, located below, will be worth a random amount of points. This amount is hidden from view.</p>
+                    <p><img src="./assets/images/diamond-icon.png" height="20px"> You win the game by matching your total score to the assigned random number. You lose the game if your total score goes above the random number.</p>
+                </div>
+            </div>
+        </div>
+	
+		</div>
+        <div class="row" id="gameSection">
+            <!--first column for random number-->
+            <div class="col-3 mx-auto" id="numberSection">
+                <h3 class="text-center" id="random">Match Number:</h3>
+				<h1 class="numberBox text-center" id="randomNumber">120</h1>
+            </div>
+
+            <!--second column for buttons-->
+            <div class="col-6 text-center" id="buttonSection">
+				<button id="gem1"><img src="assets/images/gem1.jpg"></button>
+				<button id="gem2"><img src="assets/images/gem2.jpg"></button>
+				<button id="gem3"><img src="assets/images/gem3.jpg"></button>
+				<button id="gem4"><img src="assets/images/gem4.jpg"></button>
+            </div>
+
+              <!-- third column for total points -->          
+           	<div class="col-md-3 mx-auto" id="totalPoints">
+				<h3 class="text-center" id="score">Your Total Score:</h3>
+				<h1 class="numberBox text-center" id="totalNumber">0</h1>
+            </div>
+        </div> 
+
+        
+		<!-- footer section with tracking wins and losses -->
+		<div class="row" id="scoreSection">
+
+			<!-- spacer column -->
+			<div class="col-md-4"></div>
+
+			<!-- wins column -->
+			<div class="col-md-2" id="winSection">
+				<h3 class="text-center" id="wins">Wins:	0</h3>
+			</div>
+
+			<!-- losses column -->
+			<div class="col-md-2" id="lossSection">
+				<h3 class="text-center" id="losses">Losses: 0</h3>
+			</div>
+
+			<!-- spacer column -->
+			<div class="col-md-4"></div>
+
+		</div>
+    
+
+		
+
+
+        </div>
+    </div>
+
+</body>
+</html>

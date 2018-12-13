@@ -1,0 +1,30 @@
+#jumbostyle {
+    padding: 20px;
+    margin: 0;
+    width: 100%;
+}
+
+#buttonSection {
+    padding: 0px;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+#gameSection {
+    background-color: #cccc;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+#scoreSection {
+    background-color: #cccc;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+.numberBox {
+    font-size: 100px;
+    margin: 0px;
+}
