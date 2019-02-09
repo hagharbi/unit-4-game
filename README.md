@@ -17,8 +17,8 @@ Random number generated is a number between 19 - 120
 
 # Built With
 HTML5
-CSS3
-Twitter Bootstrap
+CSS
+Twitter Bootstrap 4
 Javascript
 jQuery Library
 Google Fonts
